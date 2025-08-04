@@ -400,7 +400,11 @@ export const UserMenu: React.FC = () => {
           {/* 分割线 */}
           <div className='my-1 border-t border-gray-200 dark:border-gray-700'></div>
 
-          {/* 版本信息 */}
+
+
+          
+          {/* 版本信息 以注释*/}
+          {/* 
           <button
             onClick={() =>
               window.open('https://github.com/senshinya/MoonTV', '_blank')
@@ -424,6 +428,11 @@ export const UserMenu: React.FC = () => {
                 )}
             </div>
           </button>
+            */}
+
+
+
+          
         </div>
       </div>
     </>
